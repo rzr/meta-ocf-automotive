@@ -29,4 +29,4 @@ RDEPENDS_${PN} += " nano "
 # ENABLE_I2C = "1"
 
 RDEPENDS_${PN} += " i2c-tools "
-RDEPENDS_${PN} += " spi-tools "
+RDEPENDS_${PN} += " spitools "
