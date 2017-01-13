@@ -54,7 +54,7 @@ do_install() {
 
  oe_runmake \
   install \
-  DESTDIR=${LOCAL_OPT_DIR_D} \
+  DESTDIR=${D} \
   #eol
 
   install -d ${D}${base_libdir}/systemd/system
