@@ -6,10 +6,11 @@ inherit packagegroup
 PACKAGES = "packagegroup-ocf-automotive"
 ALLOW_EMPTY_${PN} = "1"
 
-
 RDEPENDS_${PN} += " packagegroup-iotivity"
+RDEPENDS_${PN} += " iotivity-example "
+RDEPENDS_${PN} += " iotivity-example-mraa "
+#RDEPENDS_${PN} += " iotivity-example-line "
 RDEPENDS_${PN} += " iotivity-example-geolocation"
-
 
 RDEPENDS_${PN} += " git "
 RDEPENDS_${PN} += " iotivity-node "
@@ -42,7 +43,3 @@ RDEPENDS_${PN} += " nano "
 
 RDEPENDS_${PN} += " i2c-tools "
 RDEPENDS_${PN} += " spitools "
-
-#IMAGE_INSTALL += " iotivity-example "
-#IMAGE_INSTALL += " iotivity-example-mraa "
-
