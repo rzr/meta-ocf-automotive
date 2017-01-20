@@ -1,1 +1,0 @@
-/home/philippe/mnt/iotivity-example/extra/iotivity-example_git.bb
