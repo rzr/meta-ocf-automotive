@@ -41,7 +41,7 @@ do_compile() {
  LANG=C
  export LANG
  unset DISPLAY
- LD_AS_NEEDED=1; export LD_AS_NEEDED ;
+ LD_AS_NEEDED=1; export LD_AS_NEEDED;
  
  oe_runmake all
 }
