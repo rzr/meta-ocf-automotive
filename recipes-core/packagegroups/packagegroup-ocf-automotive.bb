@@ -9,7 +9,7 @@ ALLOW_EMPTY_${PN} = "1"
 RDEPENDS_${PN} += " packagegroup-iotivity"
 
 # Dummy resource"/DummyResURI"
-RDEPENDS_${PN} += " iotivity-example-dummy"
+#RDEPENDS_${PN} += " iotivity-example-dummy"
 
 # Binary resource"/BinaryResURI"
 #RDEPENDS_${PN} += " iotivity-example"
