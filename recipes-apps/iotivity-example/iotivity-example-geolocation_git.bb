@@ -1,4 +1,4 @@
-PR = "r1"
+PR = "r0"
 SUMMARY = "IoTivity Example"
 DESCRIPTION = "Minimalist Iotivity Client/Server application that share a resource"
 HOMEPAGE = "https://github.com/TizenTeam/iotivity-example"
@@ -67,7 +67,7 @@ do_install() {
         #eol
 
     install -d ${D}${base_libdir}/systemd/system
-    install ${S}/extra/iotivity-example.service \
+    install ${PN}.service \
         ${D}${base_libdir}/systemd/system/${PN}.service
 }
 
