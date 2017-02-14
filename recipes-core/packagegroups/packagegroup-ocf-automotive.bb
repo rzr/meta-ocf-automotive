@@ -52,6 +52,7 @@ RDEPENDS_${PN} += " sudo"
 RDEPENDS_${PN} += " autoconf automake binutils"
 RDEPENDS_${PN} += " libstdc++ libstdc++-dev"
 RDEPENDS_${PN} += " coreutils"
+RDEPENDS_${PN} += " screen"
 
 # Hardware
 RDEPENDS_${PN} += " i2c-tools"
