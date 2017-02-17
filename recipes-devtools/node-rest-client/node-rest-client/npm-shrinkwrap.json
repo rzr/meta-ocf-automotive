@@ -1,0 +1,43 @@
+{
+  "name": "node-rest-client",
+  "version": "2.5.0",
+  "dependencies": {
+    "debug": {
+      "version": "2.2.0",
+      "dependencies": {
+        "ms": {
+          "version": "0.7.1"
+        }
+      }
+    },
+    "follow-redirects": {
+      "version": "1.2.1",
+      "dependencies": {
+        "debug": {
+          "version": "2.6.1",
+          "dependencies": {
+            "ms": {
+              "version": "0.7.2"
+            }
+          }
+        }
+      }
+    },
+    "xml2js": {
+      "version": "0.4.17",
+      "dependencies": {
+        "sax": {
+          "version": "1.2.2"
+        },
+        "xmlbuilder": {
+          "version": "4.2.1",
+          "dependencies": {
+            "lodash": {
+              "version": "4.17.4"
+            }
+          }
+        }
+      }
+    }
+  }
+}
