@@ -1,0 +1,23 @@
+{
+  "bindings": {
+    "1.2.1": "14ad6113812d2d37d72e67b4cacb4bb726505f11"
+  },
+  "coffee-script": {
+    "1.9.1": "c458d02200f460d064a79cb6ab1ee6e2c9ca1c31"
+  },
+  "i2c": {
+    "0.2.3": "f43f7028141026ae48af2990a374633d1dab3d2b"
+  },
+  "lodash": {
+    "2.4.1": "5b7723034dda4d262e5a46fb2c58d7cc22f71420"
+  },
+  "nan": {
+    "2.3.5": "822a0dc266290ce4cd3a12282ca3e7e364668a08"
+  },
+  "repl": {
+    "0.1.3": "2f05d42b0c88b43d05ccbda10ed14aeff5699b60"
+  },
+  "underscore": {
+    "1.8.2": "64df2eb590899de950782f3735190ba42ebf311d"
+  }
+}
