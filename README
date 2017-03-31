@@ -16,8 +16,8 @@ This layer depends on:
   layers: meta
   branch: master
 
-  URI: git://git.yoctoproject.org/xxxx
-  layers: xxxx
+  URI: git://git.yoctoproject.org/
+  layers: meta-oic
   branch: master
 
 
@@ -25,9 +25,9 @@ Patches
 =======
 
 Please submit any patches against the ocf-automotive layer to the
-xxxx mailing list (xxxx@zzzz.org) and cc: the maintainer:
+IoTivity Automotive mailing list and cc: the maintainer:
 
-Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
+Maintainer: Philippe Coval <philippe.coval@osg.samsung.com>
 
 
 Table of Contents
@@ -54,6 +54,7 @@ other layers needed. e.g.:
     /path/to/yocto/meta \
     /path/to/yocto/meta-yocto \
     /path/to/yocto/meta-yocto-bsp \
+    /path/to/yocto/meta-oic \
     /path/to/yocto/meta-ocf-automotive \
     "
 
