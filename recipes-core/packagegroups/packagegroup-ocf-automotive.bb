@@ -14,6 +14,5 @@ RDEPENDS_${PN} += " iotivity-example-geolocation"
 RDEPENDS_${PN} += " iotivity-example-switch"
 
 # Utilities
-RDEPENDS_${PN} += " os-release"
 RDEPENDS_${PN} += " screen"
 RDEPENDS_${PN} += " sudo"
