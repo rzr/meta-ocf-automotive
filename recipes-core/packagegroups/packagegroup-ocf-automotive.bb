@@ -15,4 +15,3 @@ RDEPENDS_${PN} += " iotivity-example-switch"
 
 # Utilities
 RDEPENDS_${PN} += " screen"
-
