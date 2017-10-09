@@ -6,13 +6,15 @@ SECTION = "apps"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=3b83ef96387f14655fc854ddc3c6bd57"
 
-SRCREV = "geolocation/master"
-SRC_URI = "git://git.s-osg.org/iotivity-example;nobranch=1;protocol=http"
-
-# TODO: Overide for local development ie:
-# SRC_URI = "git:///home/user/mnt/iotivity-example;nobranch=1;protocol=file"
-
+SRCREV = "${AUTOREV}"
+PV = "0+git${SRCPV}"
 S = "${WORKDIR}/git"
+
+branch = "geolocation/master"
+SRC_URI = "git://git.s-osg.org/iotivity-example;branch=${branch};protocol=http"
+
+# TODO: Override for local development ie:
+# SRC_URI = "git:///home/user/mnt/iotivity-example;nobranch=1;protocol=file"
 
 inherit systemd pkgconfig
 
@@ -31,6 +33,7 @@ SYSTEMD_SERVICE_${PN} = "${PN}.service"
 EXTRA_OEMAKE += " name=${PN}"
 EXTRA_OEMAKE += " DESTDIR=${D}"
 EXTRA_OEMAKE += " unitdir=${base_libdir}/systemd/system/"
+EXTRA_OEMAKE += " config_pkgconfig=0"
 
 do_configure() {
 }
@@ -47,7 +50,7 @@ do_compile() {
     export LANG
     unset DISPLAY
     LD_AS_NEEDED=1; export LD_AS_NEEDED;
-    oe_runmake all
+    oe_runmake
 }
 
 do_install() {
