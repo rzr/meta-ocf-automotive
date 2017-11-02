@@ -1,0 +1,8 @@
+{
+  "bindings": {
+    "1.3.0": "b346f6ecf6a95f5a815c5839fc7cdb22502f1ed7"
+  },
+  "nan": {
+    "2.7.0": "d95bf721ec877e08db276ed3fc6eb78f9083ad46"
+  }
+}
