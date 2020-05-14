@@ -1,13 +1,13 @@
 PR = "r0"
 SUMMARY = "IoTivity Example"
 DESCRIPTION = "Minimalist Iotivity Client/Server application"
-HOMEPAGE = "http://git.s-osg.org/iotivity-example"
+HOMEPAGE = "https://github.com/rzr/iotivity-example"
 SECTION = "apps"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=3b83ef96387f14655fc854ddc3c6bd57"
 
 SRCREV = "switch/master"
-SRC_URI = "git://git.s-osg.org/iotivity-example;nobranch=1;protocol=http"
+SRC_URI = "git://github.com/rzr/iotivity-example;nobranch=1;protocol=http"
 
 # TODO: Overide for local development ie:
 # SRC_URI = "git:///home/user/mnt/iotivity-example;nobranch=1;protocol=file"
