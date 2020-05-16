@@ -22,8 +22,6 @@ LOCAL_OPT_DIR_D = "${D}${LOCAL_OPT_DIR}"
 DEPENDS += " iotivity"
 BDEPENDS += " iotivity-dev"
 
-DEPENDS_${PN} += "iotivity-resource-dev iotivity-resource-thin-staticdev iotivity-service-dev iotivity-service-staticdev"
-
 BBCLASSEXTEND = "native nativesdk"
 RDEPENDS_${PN} += " iotivity-resource"
 
